@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body{
+  background-color: #B3B3B3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.main-head{
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(25, 39, 52);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;                                            
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image img{
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.hero-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#nameSpan{
+  font-size: 25px;
+  font-weight: bolder;
+  color: #00008B;
+}
+
+#ageSpan{
+  font-size: 25px;
+  font-weight: bolder;
+  color: #00008B;
+}
+
+#powerSpan{
+  font-size: 25px;
+  font-weight: bolder;
+  color: #00008B;
+}
+
+#heroName{
+  font-size: 25px;
+  font-weight: bolder;
+  color: #8B0000;
+}
+
+#heroAge{
+  font-size: 25px;
+  font-weight: bolder;
+  color: #8B0000;
+}
+
+#heroPower{
+  font-size: 25px;
+  font-weight: bolder;
+  color: #8B0000;
+}
+
+.heroBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroBtn button{
+  color: #B3B3B3;
+  background-color: rgb(25, 39, 52);
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  font-weight: bold;
+}
